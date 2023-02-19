@@ -1,0 +1,94 @@
+html{
+  font-family: "Calibri";
+  font-size: larger;
+}
+
+nav ul {
+    list-style-type: none; /* removes bullet points*/
+    margin: 0;
+    padding: 0;
+    position:fixed;
+    top: 0;
+    width: 100%;
+  }
+
+ nav li {
+    float: left;
+    width: 19.25%;
+    background-color: #FFE6EE;
+
+  }
+
+  nav li a {
+    display: block;
+    background-color: #ACAD96;
+    border: 1px solid #013220;
+    text-align: center;
+  
+
+    /*margin-left: 65px;
+    margin-right: 65px;
+    border-radius: 10px;*/
+
+    padding: 14px 16px;
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+    
+  }
+  nav li a:hover {
+    display: block;
+    background-color: #a8c49a;
+    border: 1px solid #013220;
+    text-align: center;
+  
+
+    /*margin-left: 65px;
+    margin-right: 65px;
+    border-radius: 10px;*/
+
+    padding: 14px 16px;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    
+  }
+
+  #content{
+    padding: 20px;
+    margin-top: 47px;
+    background-color: #EDEAE0;
+  }
+
+#content h1 {
+font-size: larger;
+}
+
+table{
+  text-align: center;
+}
+
+th, tr{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  vertical-align: middle;
+}
+
+th, td{
+  width:50%;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid;
+}
+
+#name{
+  display: block;
+  background-color: white;
+  text-align: center;
+
+  padding: 14px 16px;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+}

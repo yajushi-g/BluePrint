@@ -1,0 +1,52 @@
+<!Doctype Html>  
+<Html>     
+    <Head>      
+        <Title>Apnea Detection - Submit Your Data</Title>
+        <link rel="stylesheet" type="text/css" href="data submission.css"/>
+        <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</Head>  
+    <Body>   
+        <header>  
+            <nav>  
+                <ul>  
+                    <li id = "name">Apnea Detection</li>
+                    <li><a href="home.html">Home</a></li>  
+                    <li><a href="apnea.html">What is Apnea? </a></li>  
+                    <li><a href="data submission.html">Submit Your Data</a></li>  
+                    <li> <a href="future improvments.html">Future Improvments</a></li>
+                </ul>  
+            </nav>         
+        </header>  
+        
+        <div id = "content">
+            <header>
+                <div style="background-color: #f7e1dc;">
+                <h1>Data Submission</h1>
+                
+                    <p>Please submit your data to this page. You can export data from your smartwatch (such an Apple Watch, Fitbit, or Samsung Watch) and submit it to the form below. Our program only accepts .csv files so make sure to convert your file to the appropriate type. Please include as many of the following vitals as possible:</p>
+                    <ul>
+                        <li>Heart Rate</li>
+                        <li>Breathing Rate</li>
+                        <li>Oxygen Saturation</li>
+                        <li>Systolic Blood Pressure</li>
+                        <li>Diastolic Blood Pressure</li>
+                    </ul>
+                </div>
+                    <div style="background-color: #f2e2bd;">
+                        <h2>How The Data Is Analyzed</h2>
+                        <p>We will process your data by going through the .csv file and iterate through each time period. Then, it will look through each of the vitals that were provided. If there is a sudden change between the vitals over the time periods, we will alert you of a potential apnea episode.</p>
+                    </div>
+                <div style="background-color: #c6e1df;">
+                    <div class = "forms">
+                        <h2>Submit Your Form Below</h2>
+                        <center><input type="file" id="myFile">
+                        <button onclick='processFile()'>Submit</button></center>
+                        <center><p id = "resultstoprint"></p></center>
+                </div></div>
+            </header>
+        </div> 
+    </Body>   
+</Html>  
+<script src="data submission.js"></script>
